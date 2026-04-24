@@ -1,6 +1,106 @@
-<html>
-<head>Git 특강 - 심화 2026.04.24</head>
-<body>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>22회차 자기소개</title>
+    <style>
+      :root {
+        --primary-color: #4a90e2;
+        --bg-color: #f8f9fa;
+        --text-color: #333;
+        --card-bg: #ffffff;
+      }
+
+      body {
+        font-family:
+          'Pretendard',
+          -apple-system,
+          BlinkMacSystemFont,
+          system-ui,
+          Roboto,
+          sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 600px;
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .contributor-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .contributor-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 20px;
+        background: #f1f3f5;
+        border-radius: 10px;
+        transition:
+          transform 0.2s ease,
+          background 0.2s ease;
+      }
+
+      .contributor-item:hover {
+        transform: translateY(-2px);
+        background: #e9ecef;
+      }
+
+      .name {
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+
+      .profile-link {
+        text-decoration: none;
+        color: white;
+        background-color: var(--primary-color);
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        transition: opacity 0.2s;
+      }
+
+      .profile-link:hover {
+        opacity: 0.8;
+      }
+
+      #app {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    
+<hr/>
 
 <div>
   <h1>21th GOAT</h1>
@@ -31,6 +131,82 @@
     >팀 소개 사이트</a
     >
 </div>
+
+    
+<hr/>
+
+    <div class="container">
+      <h2>👥 Contributors</h2>
+
+      <div class="contributor-list">
+        <div class="contributor-item">
+          <span class="name">김세영</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/KSY.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+        <div class="contributor-item">
+          <span class="name">박성훈</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/PSH.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+        <div class="contributor-item">
+          <span class="name">여강휘</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/YKH.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+        <div class="contributor-item">
+          <span class="name">이유주</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/LYJ.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+        <div class="contributor-item">
+          <span class="name">이윤정</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/LYJ2.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+        <div class="contributor-item">
+          <span class="name">주진영</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/JJY.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+        <div class="contributor-item">
+          <span class="name">하성민</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/HSM.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+        <div class="contributor-item">
+          <span class="name">한승연</span>
+          <a
+            href="https://ksy9565.github.io/self-intro/twenty-two/HSY.html"
+            class="profile-link"
+            >Profile</a
+          >
+        </div>
+      </div>
+
+      <div id="app"></div>
+    </div>
 
 </body>
 </html>
